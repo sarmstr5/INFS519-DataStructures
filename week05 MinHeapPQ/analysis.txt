@@ -1,0 +1,64 @@
+As the ordered array grows, the time to complete n operations tends towards being n2.  For instance at n equals 100000 the increase in time is quadratic. Therefore, we can say that the ordered array is O(n^2). 
+As the binary heap grows, the time to complete n operations tends towards being greater than n, so likely n*log (n).  For instance at n equals 100000 the increase in time is around linear but greater than linear for one million inputs. Therefore, we can say that the binary heap is O(n log(n)).
+Based on the shorter run times for the ordered array with n less than 100, I would say that the ordered array has small runtime constants.
+See below for the descriptive statistics of my runs. 
+
+n		Binary Heap Avg (ms)	Ordered Array Avg (ms)	Binary Heap % Change	Ordered Array % Change
+100		0.2783					0.1595		
+1000	0.3869					0.9959					39%						24%
+10000	1.7132					45.6277					343%					4482%
+100000	19.2471					4501.5665				1023%					9766%
+1000000	421.3767				452249.2559				2089%					9946%
+
+------------------------------
+
+Number of inputs = 100
+Number of runs = 30
+BinaryHeap Avg time took = 0.2783
+BinaryHeap SD time was = 0.0223
+OrderedArray took = 0.1595
+OrderedArray SD time was = 0.0126
+
+------------------------------
+
+Number of inputs = 1000
+Number of runs = 30
+BinaryHeap Avg time took = 0.3869
+BinaryHeap SD time was = 0.0360
+OrderedArray took = 0.9959
+OrderedArray SD time was = 0.0119
+
+------------------------------
+
+Number of inputs = 10000
+Number of runs = 30
+BinaryHeap Avg time took = 1.7132
+BinaryHeap SD time was = 0.0594
+OrderedArray took = 45.6277
+OrderedArray SD time was = 0.2212
+
+------------------------------
+
+Number of inputs = 100000
+Number of runs = 30
+BinaryHeap Avg time took = 19.2471
+BinaryHeap SD time was = 0.1476
+OrderedArray took = 4501.5665
+OrderedArray SD time was = 18.1510
+
+------------------------------
+
+Number of inputs = 1000000
+Number of runs = 30
+BinaryHeap Avg time took = 421.3767
+BinaryHeap SD time was = 39.3314
+OrderedArray took = 452249.2559
+OrderedArray SD time was = 1367.2773
+
+------------------------------
+
+
+
+
+
+

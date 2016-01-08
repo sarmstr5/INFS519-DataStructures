@@ -1,0 +1,18 @@
+Below are my run times with my program.  
+The percent differences between the previous numbers make it seem like its not growing quadraticly with only one occurence being more than a linear increase.
+It looks to be between O(log(n)) and O(n*log(n)).  
+To increase the amount of confidence I should get an average of many runs at each input.
+
+Number	Time	% difference between last
+1000	2.8	
+2000	3.9		39%
+4000	5.4		38%
+8000	9.1		69%
+16000	12.9	42%
+32000	20.5	59%
+64000	27.2	33%
+128000	63.49	133%
+256000	65.16	3%
+
+
+

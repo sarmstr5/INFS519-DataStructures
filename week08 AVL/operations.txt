@@ -1,0 +1,16 @@
+put	90	student90
+put	37	student37
+put	89	student89
+put	6	student6
+put	23	student23
+put	81	student81
+put	10	student10
+put	88	student88
+put	23	student23
+put	42	student42
+put	64	student64
+put	71	student71
+put	90	student90
+put	84	student84
+put	24	student24
+size
